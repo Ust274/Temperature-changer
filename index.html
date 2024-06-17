@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="content">
+<form>
+    <h1> Temperature Conversion </h1>
+    <input type="number" id="req" value="0"><br><br>
+
+    <input type="radio" id="cel_far" name="unit">
+    <label> ℃ to ℉</label><br>
+
+    <input type="radio" id="far_cel" name="unit">
+    <label> ℉ to ℃</label> <br><br><br>
+
+    <button type="button" onclick="convert()"> Submit </button>
+
+    <h3 id="result"></h3>
+</form>
+
+</div>
+<script src="index.js"></script>
+</body>
+</html>
