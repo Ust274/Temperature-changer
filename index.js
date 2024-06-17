@@ -20,6 +20,6 @@ else if(far_cel.checked)
 }
 else
 {
-    res.textContent="first select something bitch!";   
+    res.textContent="first select something";   
 }
 }
